@@ -20,6 +20,14 @@ public class helloworld {
         System.out.print("Please enter number 2: ");
         num2 = num.nextInt();
         System.out.println("cong: " +add(num1, num2));
+        //Chia 2 so
+        Scanner div = new Scanner(System.in);
+        int num3, num4;
+        System.out.print("Please enter number 1: ");
+        num1 = div.nextInt();
+        System.out.print("Please enter number 2: ");
+        num2 = div.nextInt();
+        System.out.println("Ket qua: " +div(num1, num2));
     }
     public static int add(int x, int y){
         int result = x + y;
